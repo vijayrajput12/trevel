@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+</head>
+
+<body>
+    <!-- <script>
+        var sidemen=document.getElementById("sidemenu")
+        function openmenu(){
+            sidemen.style.right="0";
+    
+        }
+        function closemenu(){
+            sidemen.style.right="-200px";
+            
+        }
+        
+    
+    </script> -->
+    <script>
+        var sidemen=document.getElementById("sidemenu")
+    function closemenu(){
+        sidemen.style.right="0px"
+
+    }
+    </script>
+    <header>
+        <nav>
+            <h4>MR.Travel</h4>
+            <ul id="sidemenu">
+                <li> <a href="#Discover"> Discover</a> </li>
+                <li> <a href="#Coummunity">Coummunity</a></li>
+                <li> <a href="#Special Deals">Special Deals</a></li>
+                <li> <a href="#About Us">About Us</a></li>
+                <li> <a href="#Ragistra">Ragistra</a></li>
+            </ul>
+            <i style="border: 1px solid black;"  class="fa-solid fa-ellipsis" onclick="closemenu()"></i>
+        </nav>
+        <div class="content">
+            <div class="cont_box">
+                <h1>The right desitination for you and your family</h1>
+                <p>Creative taflines have the capadility of capturing the attention of potential custumer</p>
+                <button> Start yout search</button>
+            </div>
+            <div class="trip_box">
+                <div class="search_box">
+                    <div class="card">
+                        <h4>Location <i class="fa-solid fa-caret-down extra"></i> </h4>
+                        <input type="text" placeholder="Enter desitination">
+
+                    </div>
+                    <div class="card">
+                        <h4>Date <i class="fa-solid fa-caret-down extra"></i></h4>
+                        <input type="date">
+
+                    </div>
+                    <div class="card">
+                        <h4>people <i class="fa-solid fa-caret-down extra"></i></h4>
+                        <input type="number" placeholder="how many people ?">
+                    </div>
+                    <input type="button" class="button1" value="Explor now">
+
+                </div>
+
+                <div class="trevel_box">
+                    <h4>Countries to travel</h4>
+                    <div class="cards">
+                        <div class="card">
+                            <h3>INDIA <img src="img/flag.png" alt=""> </h3>
+                            <img src="img/dehli.jpeg" alt="">
+                            <div class="btn_city">
+                                <a href="">Read Now</a>
+                                <h5>Dehli <br> <span>$549</span> </h5>
+                            </div>
+                            </div>
+                            <div class="card">
+                                <h3> USA <img src="img/usa.png" alt=""> </h3>
+                                <img src="img/ocean.jpeg" alt="">
+                                <div class="btn_city">
+                                    <a href="">Read Now</a>
+                                    <h5>Ocean <br> <span>$749</span> </h5>
+                                </div>
+                                </div>
+                                <div class="card">
+                                    <h3>JAPAN <img src="img/japan.png" alt=""> </h3>
+                                    <img src="img/tokyo.jpeg" alt="">
+                                    <div class="btn_city">
+                                        <a href="">Read Now</a>
+                                        <h5>Tokyo <br> <span>$449</span> </h5>
+                                    </div>
+                                </div>
+                                    <div class="card">
+                                        <h3>AUSTRALIA <img src="img/austrilial.jpeg" alt=""> </h3>
+                                        <img src="img/mel.jpeg" alt="">
+                                        <div class="btn_city">
+                                            <a href="">Read Now</a>
+                                            <h5>Melbourne <br> <span>$649</span> </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- -----------------------------second-page---------- -->
+
+<div class="offers">
+    <h1>Best tour package offers for you</h1>
+    <p>choose your next destination</p>
+    <div class="cards">
+        <div class="card">
+            <h5>Lotus-Dehli</h5>
+            <div class="img_text">
+                <img src="img/kedarnath.jpeg" alt="">
+                <h4>Included:Air ticket,hotel,breakfast,tours,transform</h4>
+            </div>
+            <div class="cont_bx">
+                <div class="price">
+                    <div class="heart_chat">
+                        <i class="fa-solid fa-heart"> <span>43847</span> </i>
+                        <i class="fa-solid fa-comment"> <span>3434</span> </i>
+                        
+                    </div>
+                    <div class="info_price">
+                        <a href="">More Info</a>
+                        <h4>$2612</h4>
+                    </div>
+                </div>
+                <div class="days"> 
+                    5 Days <br> India 
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------card-2--------------- -->
+
+        <div class="card">
+            <h5>Burj Khalifa-Dubai</h5>
+            <div class="img_text">
+                <img src="img/BURAJ KHALIFA.jpeg" alt="">
+                <h4>Included:Air ticket,hotel,breakfast,tours,transform</h4>
+            </div>
+            <div class="cont_bx">
+                <div class="price">
+                    <div class="heart_chat">
+                        <i class="fa-solid fa-heart"> <span>43847</span> </i>
+                        <i class="fa-solid fa-comment"> <span>3434</span> </i>
+                        
+                    </div>
+                    <div class="info_price">
+                        <a href="">More Info</a>
+                        <h4>$3122</h4>
+                    </div>
+                </div>
+                <div class="days"> 
+                    5 Days <br> Dubai 
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------card-3======------------ -->
+
+        <div class="card">
+            <h5>Tajmahal-Aagra</h5>
+            <div class="img_text">
+                <img src="img/tajmahal.jpeg" alt="">
+                <h4>Included:Air ticket,hotel,breakfast,tours,transform</h4>
+            </div>
+            <div class="cont_bx">
+                <div class="price">
+                    <div class="heart_chat">
+                        <i class="fa-solid fa-heart"> <span>43847</span> </i>
+                        <i class="fa-solid fa-comment"> <span>3434</span> </i>
+                        
+                    </div>
+                    <div class="info_price">
+                        <a href="">More Info</a>
+                        <h4>$3627</h4>
+                    </div>
+                </div>
+                <div class="days"> 
+                    5 Days <br> India 
+                </div>
+            </div>
+        </div>
+        <!-- <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div> -->
+    </div>
+</div>
+
+<div class="destination">
+    <div class="des_bx">
+        <h4>Our Destination</h4>
+        <p>choose your  next destionation</p>
+        <li>India</li>
+        <li>Dubai</li>
+        <li>Usa</li>
+        <li>Russia</li>
+        <li>Brazil</li>
+         <h6> Include Air ticket Hotel, Brekfast, Tours Transfer</h6>
+         <button>More info</button>
+        
+    </div>
+    <div class="img_bx">
+        <img src="img/airplane2.jpeg" alt="">
+        <div class="msg">
+            <img src="img/flag.png" alt="">
+            
+            <div class="count">
+            <h4>United state </h4>
+            <div class="icon">
+                <i class="fa-solid fa-heart"> <span>31442</span> </i>
+                <i class="fa-solid fa-comment"> <span>1434</span> </i>
+            </div>
+            </div>
+        </div>
+
+        <div class="msg">
+            <img src="img/flag.png" alt="">
+            
+            <div class="count">
+            <h4>India </h4>
+            <div class="icon">
+                <i class="fa-solid fa-heart"> <span>43847</span> </i>
+                <i class="fa-solid fa-comment"> <span>3434</span> </i>
+            </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <h2>Subscribe & <br> get special discount</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nes
+        ciunt molestiae quod libero doloribus sapiente aliquid dolorem ipsum
+         vel exercitationem!</p>
+    <div class="input">
+        <input type="text" placeholder="Enter Your Email Address">
+
+        <button>Subcribe</button>
+        
+    </div>
+    <ul>
+        <li>7832 <br> <h6> years serving the travel industry </h6> </li>
+        <li>9383 <br> <h6> Global  patnership </h6></li>
+        <li>3942 <br> <h6>Industry Aards sence 2012</h6> </li>
+        <li>5342 <br> <h6>subcribe</h6></li>
+    </ul>
+</footer>
+<script>
+
+</script>
+
+
+</body>
+
+</html>

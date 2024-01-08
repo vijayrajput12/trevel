@@ -1,0 +1,254 @@
+@media screen and (max-width:1222px){
+    
+header .trip_box .search_box {
+   
+    width: 80%;
+}
+}
+
+
+@media screen and (max-width:1248px){
+    
+    header .trip_box .trevel_box .cards .card {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:1120px){
+  
+    .offers {
+        width:79%;
+    }
+    .destination{
+        width:64%;
+
+    }
+}
+
+@media screen and (max-width:994px){
+    header .trip_box .trevel_box .cards .card .btn_city h5 {
+        font-size: 7px;
+       
+    }
+  
+}
+@media screen and (max-width:807px){
+    
+    header .trip_box .trevel_box .cards .card{
+        width: 200px;
+        font-size: 50px;
+    } 
+    .content .cont_box h1{
+        font-size: 20px;
+        font-weight: 400;
+        width:60%;
+
+
+    }
+}
+
+@media screen and (max-width:900px){
+    header .trip_box .trevel_box .cards .card {
+        font-size: 7px;
+        width: 200px;
+    }
+    .trip_box .search_box .card input{
+        width: 100%;
+        font-size: 1px;
+    }
+   
+}
+@media screen and (max-width:900px){
+    .trip_box .search_box .card input{
+        width: 100%;
+       
+        
+    }
+
+}
+
+
+
+@media screen and (max-width:692px){
+    header .trip_box .search_box .card{
+        margin-top: 10px;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    header .trip_box .search_box .card h4{
+        font-size: 10px;
+        margin: 0;
+        font-weight: 700;
+    
+    }
+    header .trip_box .search_box .card input{
+        padding: 2px;
+        width: 70px;
+    }
+    header .trip_box .search_box  .button1{
+        
+        font-size: 10px;
+    }
+    .offers h1{
+        font-size: 25px;
+        
+    }
+}
+@media screen and (max-width:1250px){
+    header{
+        width: 90%;
+    }
+    .offers{
+        width: 82%;
+    }
+    .destination{
+        width: 55%;
+    }
+
+}
+@media screen and (max-width:1100px){
+    header{
+        width: 95%;
+    }
+    .offers{
+        width: 95%;
+    }
+    .destination{
+        width: 60%;
+    }
+    header ,.trip_box .search_box{
+        width: 70%;
+    }
+    header .trip_box .trevel_box .cards{
+        overflow: auto;
+    }
+    header .trip_box .trevel_box .cards .card{
+        width: 220px;
+        height: 180px;
+        min-width: 220px;
+        margin-right: 10px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width:714px){
+    header nav ul{
+        position: fixed;
+        flex-direction: column;
+        background-color: antiquewhite;
+        border-radius: 5px;
+        box-shadow: 0 0 10px gray;
+        justify-content: center;
+        z-index:999999999 ;
+        padding: 10px,20px;
+        top: 0px;
+        right: -100px;
+        width: 100px;
+        height: 100vh;
+
+        /* background-color: aqua;
+        
+        top: 0px;
+        right: -200px;
+        width: 100px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index:2;
+        transition: right 1s; */
+    }
+    header nav ul li{
+        padding: 8px 0px;
+        align-items: center;
+    }
+    header nav .fa-ellipsis{
+        display: unset;
+    }
+    header .trip_box .search_box{
+        width: 93%;
+
+    }
+    .offers{
+        width: 75%;
+    }
+
+}
+@media screen and (max-width:950px){
+    header .trip_box .search_box{
+        width: 85%;
+    }
+    header .trip_box .search_box .card{
+     margin-right: 8px;
+     width: 25%;
+    }
+    .destination{
+        width: 75%;
+    }
+    .destination{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:714px){
+    header .trip_box .search_box{
+        width: 85%;
+    }
+    header .trip_box .search_box .card{
+     margin-right: 8px;
+     width: 25%;
+    }
+    .destination{
+        width: 75%;
+    }
+}
+@media screen and (max-width:1053px){
+    header .trip_box .search_box .card{
+        width: 50%;
+        margin-right: -5px;
+
+    }
+
+}
+
+/* javascript */
+@media screen and (max-width:692px){
+    header .trip_box .search_box .card{
+        width: 180px; 
+
+    }
+    header .trip_box .search_box   input[type='button']{
+        position: absolute;
+        right: 10px;
+         bottom: -43px;
+         font-size: 13px;
+    }
+    .offers{
+        width: 85%; 
+
+    }
+    .destination{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .destination  .img_bx{
+        position: relative;
+        width: 45%; 
+        height: auto;
+
+
+    }
+    .destination .des_bx{
+        /* margin: auto; */
+        margin-left: 30px;
+        margin-top: 30px;
+
+    }
+}
+
